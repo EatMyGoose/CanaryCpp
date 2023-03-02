@@ -160,7 +160,7 @@ Builds on GCC (c++14, no special flags required). Should have no issue with VS20
 ## Miscellaneous
 A lightweight string-formatting function `CTest::cfmt()` is also available in the framework. Works like a regular `printf()` but with all tokens replaced with `%t` instead. Use `%%` to escape the percent sign. Outputs a std::string and accepts User-Defined-Types which fulfill the string conversion requirements for `test.assert_eq` & `test.assert_neq`.
 ```
-string tfmt(string format, ...);
+string cfmt(string format, ...);
 
 string result = 
     CTest::cfmt(
