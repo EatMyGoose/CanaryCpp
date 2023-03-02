@@ -1,0 +1,263 @@
+{
+"all-tests-passed":true,
+"passing-tests":35,
+"failing-tests":0,
+"total-test-time-millis":0,
+"test-results":[{
+"name":"Assert_Throw_and_nothrow",
+"group":"",
+"all-passed":true,
+"passing-tests":2,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"throw",
+"passed":true,
+"description":"Throws exception",
+"details":"exception message: exception thrown"
+},{
+"type":"nothrow",
+"passed":true,
+"description":"Does not throw exception",
+"details":""
+}],
+"logs":[]
+},{
+"name":"Assert_eq",
+"group":"",
+"all-passed":true,
+"passing-tests":6,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"eq",
+"passed":true,
+"description":"1) Equality, primitive\/library types",
+"details":"Actual: 1 |Expected: 1"
+},{
+"type":"eq",
+"passed":true,
+"description":"2) Equality, primitive\/library types",
+"details":"Actual: 2 |Expected: 2"
+},{
+"type":"eq",
+"passed":true,
+"description":"3) Equality, primitive\/library types",
+"details":"Actual: 3 |Expected: 3"
+},{
+"type":"eq",
+"passed":true,
+"description":"4) Equality, primitive\/library types",
+"details":"Actual: true |Expected: true"
+},{
+"type":"eq",
+"passed":true,
+"description":"5) Equality, UDF Comparison",
+"details":"Actual: user-defined-tostring |Expected: user-defined-tostring"
+},{
+"type":"eq",
+"passed":true,
+"description":"6) Equality, const specifier",
+"details":"Actual: 1 |Expected: 1"
+}],
+"logs":[]
+},{
+"name":"Assert_neq",
+"group":"",
+"all-passed":true,
+"passing-tests":6,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"neq",
+"passed":true,
+"description":"1) Inequality, primitive\/library types",
+"details":"Actual: 1 |Compared Value: 2"
+},{
+"type":"neq",
+"passed":true,
+"description":"2) Inequality, primitive\/library types",
+"details":"Actual: 2 |Compared Value: 3"
+},{
+"type":"neq",
+"passed":true,
+"description":"3) Inequality, primitive\/library types",
+"details":"Actual: 3 |Compared Value: 4"
+},{
+"type":"neq",
+"passed":true,
+"description":"4) Inequality, primitive\/library types",
+"details":"Actual: true |Compared Value: false"
+},{
+"type":"neq",
+"passed":true,
+"description":"5) Inequality, UDF Comparison",
+"details":"Actual: user-defined-tostring |Compared Value: user-defined-tostring"
+},{
+"type":"neq",
+"passed":true,
+"description":"6) Inequality, const specifier",
+"details":"Actual: 1 |Compared Value: 2"
+}],
+"logs":[]
+},{
+"name":"Formatter_Test",
+"group":"",
+"all-passed":true,
+"passing-tests":11,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"assert",
+"passed":true,
+"description":"1) Percent correctly escaped",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"2) Percent correctly escaped",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"3) Percent correctly escaped",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"Missing token",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"int substitution",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"bool reflected as string literal(1)",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"bool reflected as string literal(2)",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"1) int, string substitution",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"2) int, string substitution",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"user-defined to_string for User-Defined Data Types",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"No ambiguity between token and escaped percent",
+"details":""
+}],
+"logs":[]
+},{
+"name":"Json_Writer_Tests",
+"group":"",
+"all-passed":true,
+"passing-tests":4,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"assert",
+"passed":true,
+"description":"Primitives serialized correctly",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"Array serialized correctly",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"Nested objects",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"Nested arrays",
+"details":""
+}],
+"logs":[]
+},{
+"name":"Whitespace_Stripper",
+"group":"",
+"all-passed":true,
+"passing-tests":2,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"assert",
+"passed":true,
+"description":"1) whitespace removal",
+"details":""
+},{
+"type":"assert",
+"passed":true,
+"description":"2) whitespace removal",
+"details":""
+}],
+"logs":[]
+},{
+"name":"GroupA_Method_1",
+"group":"group A",
+"all-passed":true,
+"passing-tests":1,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"assert",
+"passed":true,
+"description":"1) group A",
+"details":""
+}],
+"logs":[]
+},{
+"name":"GroupA_Method_2",
+"group":"group A",
+"all-passed":true,
+"passing-tests":1,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"assert",
+"passed":true,
+"description":"2) group A",
+"details":""
+}],
+"logs":[]
+},{
+"name":"GroupMethodFilteredCorrectly",
+"group":"group B",
+"all-passed":true,
+"passing-tests":2,
+"failing-tests":0,
+"test-time-millis":0,
+"assertions":[{
+"type":"eq",
+"passed":true,
+"description":"1) Grouped results correctly filtered",
+"details":"Actual: 2 |Expected: 2"
+},{
+"type":"assert",
+"passed":true,
+"description":"2) Grouped results correctly filtered",
+"details":""
+}],
+"logs":[]
+}]
+}

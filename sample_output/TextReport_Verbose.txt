@@ -1,0 +1,62 @@
+All tests passed|35/35 tests passed|Time taken:0ms
+Test results:
+   Test Method:Assert_Throw_and_nothrow, passed 2/2, all-passed?:True, running time:0ms
+      Passed - throw , Description [ Throws exception ]
+         Details: exception message: exception thrown
+      Passed - nothrow, Description [ Does not throw exception ]
+   Test Method:Assert_eq, passed 6/6, all-passed?:True, running time:0ms
+      Passed - eq    , Description [ 1) Equality, primitive/library types ]
+         Details: Actual: 1 |Expected: 1
+      Passed - eq    , Description [ 2) Equality, primitive/library types ]
+         Details: Actual: 2 |Expected: 2
+      Passed - eq    , Description [ 3) Equality, primitive/library types ]
+         Details: Actual: 3 |Expected: 3
+      Passed - eq    , Description [ 4) Equality, primitive/library types ]
+         Details: Actual: true |Expected: true
+      Passed - eq    , Description [ 5) Equality, UDF Comparison ]
+         Details: Actual: user-defined-tostring |Expected: user-defined-tostring
+      Passed - eq    , Description [ 6) Equality, const specifier ]
+         Details: Actual: 1 |Expected: 1
+   Test Method:Assert_neq, passed 6/6, all-passed?:True, running time:0ms
+      Passed - neq   , Description [ 1) Inequality, primitive/library types ]
+         Details: Actual: 1 |Compared Value: 2
+      Passed - neq   , Description [ 2) Inequality, primitive/library types ]
+         Details: Actual: 2 |Compared Value: 3
+      Passed - neq   , Description [ 3) Inequality, primitive/library types ]
+         Details: Actual: 3 |Compared Value: 4
+      Passed - neq   , Description [ 4) Inequality, primitive/library types ]
+         Details: Actual: true |Compared Value: false
+      Passed - neq   , Description [ 5) Inequality, UDF Comparison ]
+         Details: Actual: user-defined-tostring |Compared Value: user-defined-tostring
+      Passed - neq   , Description [ 6) Inequality, const specifier ]
+         Details: Actual: 1 |Compared Value: 2
+   Test Method:Formatter_Test, passed 11/11, all-passed?:True, running time:0ms
+      Passed - assert, Description [ 1) Percent correctly escaped ]
+      Passed - assert, Description [ 2) Percent correctly escaped ]
+      Passed - assert, Description [ 3) Percent correctly escaped ]
+      Passed - assert, Description [ Missing token ]
+      Passed - assert, Description [ int substitution ]
+      Passed - assert, Description [ bool reflected as string literal(1) ]
+      Passed - assert, Description [ bool reflected as string literal(2) ]
+      Passed - assert, Description [ 1) int, string substitution ]
+      Passed - assert, Description [ 2) int, string substitution ]
+      Passed - assert, Description [ user-defined to_string for User-Defined Data Types ]
+      Passed - assert, Description [ No ambiguity between token and escaped percent ]
+   Test Method:Json_Writer_Tests, passed 4/4, all-passed?:True, running time:0ms
+      Passed - assert, Description [ Primitives serialized correctly ]
+      Passed - assert, Description [ Array serialized correctly ]
+      Passed - assert, Description [ Nested objects ]
+      Passed - assert, Description [ Nested arrays ]
+   Test Method:Whitespace_Stripper, passed 2/2, all-passed?:True, running time:0ms
+      Passed - assert, Description [ 1) whitespace removal ]
+      Passed - assert, Description [ 2) whitespace removal ]
+   Test Method:GroupA_Method_1, passed 1/1, all-passed?:True, running time:0ms, group:group A
+      Passed - assert, Description [ 1) group A ]
+   Test Method:GroupA_Method_2, passed 1/1, all-passed?:True, running time:0ms, group:group A
+      Passed - assert, Description [ 2) group A ]
+   Test Method:GroupMethodFilteredCorrectly, passed 2/2, all-passed?:True, running time:0ms, group:group B
+      Passed - eq    , Description [ 1) Grouped results correctly filtered ]
+         Details: Actual: 2 |Expected: 2
+      Passed - assert, Description [ 2) Grouped results correctly filtered ]
+
+[---All tests passed---]
