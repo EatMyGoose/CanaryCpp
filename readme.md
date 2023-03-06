@@ -1,7 +1,7 @@
 # CanaryCpp
 
 ## About
-A header only C++14 library for basic unit-testing. Targeted towards  environments where more established solutions may not be able to work (i.e. being unable to setup Visual Studio's test environment due to DLL dependency errors). 
+A lightweight C++14 library for basic unit-testing. Targeted towards  environments where more established solutions may not be able to work (i.e. being unable to setup Visual Studio's test environment due to DLL dependency errors). 
 
 ## Running Tests
 All tests are run by calling `CTest::Canary::Instance().RunAllTests()`. 
